@@ -1,26 +1,29 @@
-footer {
-    height: 75px;
-    background: rgba(0, 0, 0, 0.4);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-article {
-    width: 100% - 40px;
-    height: 100% - 90px;
-    margin-top: 50px;
-    margin-bottom: 90x;
-    padding: 15px;
-}
 body {
     margin: 0;
-    font-family: Calibri, Arial, Helvetica Neue, Tahoma;
-    background: url('../img/chicago.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #FFFFFF;;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 45px;
+    background: url('../img/shattered.png');
+    background=repeat: repeat-x, repeat-y;
+    color: #309166;;
+}
+a         { text-decoration: none }
+a:link    { color: #40BF88 }  /* unvisited links */
+a:visited { color: #40BF88 }  /* visited links   */
+a:hover   { color: #C9B05E }  /* user hovers     */
+a:active  { color: #C9B05E }  /* active links    */
+
+article {
+    width: 50%;
+    height: 100% - 30px;
+    margin: auto;
+    text-align: center;
+}
+#self-portrait {
+    padding-top: 25px;
+    width: 380px;
+    margin: 0px auto;
+}
+#footer {
+    width: 200px;
+    margin: 0px auto;
 }
