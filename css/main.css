@@ -1,27 +1,29 @@
 body {
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-family: "Oxygen", "Helvetica Neue", Arial;
     font-size: 45px;
-    background: url('../img/shattered.png');
-    background=repeat: repeat-x, repeat-y;
-    color: #309166;;
+    background: #FAFFFD;
+    color: #309166;
 }
-a         { text-decoration: none }
-a:link    { color: #40BF88 }  /* unvisited links */
-a:visited { color: #40BF88 }  /* visited links   */
-a:hover   { color: #C9B05E }  /* user hovers     */
-a:active  { color: #C9B05E }  /* active links    */
-
-article {
-    width: 50%;
-    height: 100% - 30px;
-    margin: auto;
-    text-align: center;
+a {
+    text-decoration: none;
+    text-shadow: 3px 2px 1px #222222;
 }
+a:link    { color: #009ADB }  /* unvisited links */
+a:visited { color: #009ADB }  /* visited links   */
+a:hover   { color: #40BF88 }  /* user hovers     */
+a:active  { color: #40BF88 }  /* active links    */
 #self-portrait {
-    padding-top: 25px;
+    padding-top: 40px;
     width: 380px;
     margin: 0px auto;
+}
+article {
+    width: 50%;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: -30px;
+    text-align: center;
 }
 #footer {
     width: 200px;
