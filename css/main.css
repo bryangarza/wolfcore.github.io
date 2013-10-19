@@ -9,6 +9,9 @@ a {
     text-decoration: none;
     text-shadow: 3px 2px 1px #222222;
 }
+a#smallfont {
+    font-size: 40px;
+}
 a:link    { color: #009ADB }  /* unvisited links */
 a:visited { color: #009ADB }  /* visited links   */
 a:hover   { color: #40BF88 }  /* user hovers     */
