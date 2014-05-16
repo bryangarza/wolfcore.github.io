@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Droid Serif', serif;
+    font-size: 20px;
+    background: #FAFFFD;
+    color: #29292B;
+}
+a {
+    text-decoration: none;
+}
+a:link    { color: #29292B }  /* unvisited links */
+a:visited { color: #009ADB }  /* visited links   */
+a:hover   { color: #40BF88 }  /* user hovers     */
+a:active  { color: #40BF88 }  /* active links    */
+article {
+    width: 60%;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: justify;
+    text-indent: 40px;
+}
+img {
+    padding: 15px;
+}
+h2 {
+    text-indent: 0px;
+}
+strong {
+    font-size: 28px;
+}
+article#bibliography {
+    text-indent: -40px;
+    padding-left: 40px;
+    text-align: left;
+}
+cite {
+    font-style: italic;
+}
