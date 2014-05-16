@@ -2,33 +2,28 @@ body {
     margin: 0;
     font-family: "Oxygen", "Helvetica Neue", Arial;
     font-size: 45px;
-    background: #FAFFFD;
-    color: #309166;
+    background: #fefefb;
+    color: #194d31;
 }
 a {
     text-decoration: none;
-    text-shadow: 3px 2px 1px #222222;
+    /*text-shadow: 3px 2px 1px #194d31;*/
 }
-a#smallfont {
-    font-size: 40px;
-}
-a:link    { color: #009ADB }  /* unvisited links */
-a:visited { color: #009ADB }  /* visited links   */
+a:link    { color: #194d31 }  /* unvisited links */
+a:visited { color: #194d31 }  /* visited links   */
 a:hover   { color: #40BF88 }  /* user hovers     */
 a:active  { color: #40BF88 }  /* active links    */
-#self-portrait {
-    padding-top: 40px;
-    width: 380px;
-    margin: 0px auto;
-}
-article {
-    width: 50%;
-    height: 100%;
-    margin: 0px auto;
-    margin-top: -30px;
+div {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin:-175px 0 0 -150px;
+
     text-align: center;
 }
-#footer {
-    width: 200px;
-    margin: 0px auto;
+ul {
+    list-style-type: none;
 }
