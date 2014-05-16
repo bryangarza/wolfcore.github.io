@@ -39,3 +39,10 @@ article#bibliography {
 cite {
     font-style: italic;
 }
+div.title {
+    text-align: center;
+    font-size:30px;
+}
+h2 {
+    font-size: 25px;
+}
